@@ -21,7 +21,7 @@ body, html {
 	                              height:50px;
 	                              background:lightgreen;
      z-index: 99999999;
-			     	     
+			  float: right;   	     
                                 }
 .navigation ul {
 
@@ -30,7 +30,7 @@ body, html {
                                  padding: 0;
                                   overflow: hidden;
                                   background-color: #676767;
-float: right;
+
                                     }
                                     
 .navigation li {
