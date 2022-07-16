@@ -57,7 +57,10 @@ body, html {
   padding: 10px;
   text-align: center;
 	background-color: red;
-  opacity: 0.75;
+  opacity: 0.05;
+	font-weight: bold;
+	  color: black;
+
 }
  
 /* (D) ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
