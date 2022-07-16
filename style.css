@@ -34,7 +34,7 @@ body, html {
                                     }
                                     
 .navigation li {
-                                  float: left;
+                                  float: right;
                                     }
 		    .navigation li a {
 				    display: block;
