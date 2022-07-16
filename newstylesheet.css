@@ -56,10 +56,11 @@ body, html {
   box-sizing: border-box;
   padding: 10px;
   text-align: center;
+	 color: black;
 	background-color: red;
-  opacity: 0.05;
+  opacity: 0.50;
 	font-weight: bold;
-	  color: black;
+	 
 
 }
  
