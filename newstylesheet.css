@@ -40,12 +40,15 @@ body, html {
 				    text-decoration: none;
 				     }
 
-/* (A) FIXED WRAPPER */
-.hwrap {
-	position: -webkit-sticky;
+.news tricker{
+position: -webkit-sticky;
   position: sticky;
   top: 0;
 	                              height:50px;
+}
+/* (A) FIXED WRAPPER */
+.hwrap {
+	
   overflow: hidden; /* HIDE SCROLL BAR */
   background: #eee;
 	
@@ -55,13 +58,6 @@ body, html {
 /* (B) MOVING TICKER WRAPPER */
 .hmove {
 	display: flex; 
-position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-	                              height:50px;
-	
-	
-
 }
 
 /* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
