@@ -22,7 +22,6 @@ z-index: 99999999;
  position: -webkit-sticky;
   position: sticky;
     top: 0;
-overflow: visible;
 	                              height:50px;
 	 
 	                              background:lightgreen;
@@ -53,7 +52,7 @@ overflow: visible;
 .newstricker{
 position: -webkit-sticky;
   position: sticky;
-  top: 51px;
+  top: auto;
 	                              height:50px;
 	 z-index: 99999999;
 	
