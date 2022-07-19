@@ -14,7 +14,8 @@ body, html {
 
  .navigation{
 position: -webkit-sticky;
-  position: sticky;    top: 0;
+  position: sticky;  
+	 top: 0;
 	                              height:50px;
 	 
 	                              background:lightgreen;
@@ -45,7 +46,7 @@ position: -webkit-sticky;
 .newstricker{
 position: -webkit-sticky;
   position: sticky;
-  top: auto;
+  top: 51px;
 	                              height:50px;
 	 z-index: 99999999;
 	
@@ -268,7 +269,7 @@ h1 {
   
  	font-size: 20px;
   }
-.education ul,.wordke ul,.publishing ul, .navigation ul{
+.education ul,.wordke ul,.publishing ul,.navigation li .navigation li a{
  font-size: 100%;
 }  
 
