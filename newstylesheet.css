@@ -272,6 +272,9 @@ h1 {
 .education ul,.wordke ul,.publishing ul{
  font-size: 100%;
 }  
+.navigation {
+	 height:60%;
+	}
 .navigation ul{
  font-size: 40%;
 font-weight: bold;	
