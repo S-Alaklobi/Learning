@@ -10,17 +10,11 @@ body, html {
    padding: 10px;
 
 }
-.container {  position: -webkit-sticky;
-  position: sticky;
-    top: 0;
 
-	                              height:100px; 
-z-index: 99999999;
-}
 
  .navigation{
-position: static;
-    top: 0;
+position: -webkit-sticky;
+  position: sticky;    top: 0;
 	                              height:50px;
 	 
 	                              background:lightgreen;
@@ -260,7 +254,7 @@ h1 {
 
 @media only screen and (max-device-width: 1024px) {
 
-    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, h1 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, h1 ,{
 
         background-attachment: scroll;
 
@@ -270,11 +264,11 @@ h1 {
 /*Use a media query to add a break point at 800px:*/
 @media (max-width:800px) {
 
- .education h1,.wordke h1,.publishing h1 {
+ .education h1,.wordke h1,.publishing h1,  {
   
  	font-size: 20px;
   }
-.education ul,.wordke ul,.publishing ul{
+.education ul,.wordke ul,.publishing ul, .navigation ul{
  font-size: 100%;
 }  
 
