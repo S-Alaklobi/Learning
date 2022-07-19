@@ -45,6 +45,7 @@ position: -webkit-sticky;
   position: sticky;
   top: 51px;
 	                              height:50px;
+	 z-index: 99999999;
 }
 /* (A) FIXED WRAPPER */
 .hwrap {
