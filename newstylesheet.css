@@ -29,7 +29,7 @@ position: -webkit-sticky;
                                  padding: 0;
                                   overflow: hidden;
                                   background-color: #676767;
-
+font-size: 20px;
                                     }
                                     
 .navigation li {
@@ -269,7 +269,7 @@ h1 {
   
  	font-size: 20px;
   }
-.education ul,.wordke ul,.publishing ul,.navigation li .navigation li a{
+.education ul,.wordke ul,.publishing ul,.navigation ul{
  font-size: 100%;
 }  
 
