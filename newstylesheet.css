@@ -40,8 +40,8 @@ body, html {
 				    text-decoration: none;
 				     }
 
-.news tricker{
-position: -webkit-sticky;
+.newstricker{
+
   position: sticky;
   top: 0;
 	                              height:50px;
