@@ -24,6 +24,7 @@ z-index: 99999999;
     top: 0;
 
 	                              height:50px;
+	 
 	                              background:lightgreen;
      z-index: 99999999;
 			    	     
@@ -33,7 +34,7 @@ z-index: 99999999;
                                  list-style-type: none;
                                  margin: 0;
                                  padding: 0;
-                                  overflow: hidden;
+                                  overflow: visible;
                                   background-color: #676767;
 
                                     }
@@ -55,7 +56,7 @@ position: -webkit-sticky;
   top: 51px;
 	                              height:50px;
 	 z-index: 99999999;
-	overflow: scroll;
+	
 }
 /* (A) FIXED WRAPPER */
 .hwrap {
