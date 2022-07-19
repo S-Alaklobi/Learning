@@ -265,7 +265,7 @@ h1 {
 /*Use a media query to add a break point at 800px:*/
 @media (max-width:800px) {
 
- .education h1,.wordke h1,.publishing h1,  {
+ .education h1,.wordke h1,.publishing h1 {
   
  	font-size: 20px;
   }
