@@ -260,7 +260,17 @@ h1 {
         background-attachment: scroll;
 
     }
-
+.navigation ul{
+ font-size: 40%;
+font-weight: bold;	
+}  
+	.navigation li a{
+	 padding: 10px 10px;
+	}
+	.newstricker{
+	 height:31px;
+	
+	}
 }
 /*Use a media query to add a break point at 800px:*/
 @media (max-width:800px) {
