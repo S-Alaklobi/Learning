@@ -44,6 +44,11 @@ body, html {
 .hwrap {
   overflow: hidden; /* HIDE SCROLL BAR */
   background: #eee;
+	position: -webkit-sticky;
+  position: sticky;
+	 height:50px;
+	 top: 51;
+	
 }
  
 /* (B) MOVING TICKER WRAPPER */
