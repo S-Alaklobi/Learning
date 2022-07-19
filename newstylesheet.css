@@ -13,7 +13,7 @@ body, html {
 .container {  position: -webkit-sticky;
   position: sticky;
     top: 0;
-
+overflow: visible;
 	                              height:100px; 
 z-index: 99999999;
 }
@@ -34,7 +34,7 @@ z-index: 99999999;
                                  list-style-type: none;
                                  margin: 0;
                                  padding: 0;
-                                  overflow: visible;
+                                  overflow: hidden;
                                   background-color: #676767;
 
                                     }
