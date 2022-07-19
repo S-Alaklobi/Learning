@@ -42,7 +42,10 @@ body, html {
 
 /* (A) FIXED WRAPPER */
 .hwrap {
-	
+	position: -webkit-sticky;
+  position: sticky;
+	 height:50px;
+	 top: 50;
   overflow: hidden; /* HIDE SCROLL BAR */
   background: #eee;
 	
