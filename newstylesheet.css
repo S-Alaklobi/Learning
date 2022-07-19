@@ -42,10 +42,7 @@ body, html {
 
 /* (A) FIXED WRAPPER */
 .hwrap {
-	position: -webkit-sticky;
-  position: sticky;
-	 height:50px;
-	 top: 50;
+	
   overflow: hidden; /* HIDE SCROLL BAR */
   background: #eee;
 	
@@ -53,7 +50,16 @@ body, html {
 }
  
 /* (B) MOVING TICKER WRAPPER */
-.hmove { display: flex; }
+.hmove {
+	display: flex; 
+position: -webkit-sticky;
+  position: sticky;
+	 height:50px;
+	 top: 50;
+	 background: red;
+	
+
+}
 
 /* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
 .hitem {
