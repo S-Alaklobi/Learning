@@ -29,7 +29,7 @@ position: -webkit-sticky;
                                  padding: 0;
                                   overflow: hidden;
                                   background-color: #676767;
-font-size: 14px;
+font-size: 16px;
                                     }
                                     
 .navigation li {
@@ -273,8 +273,11 @@ h1 {
  font-size: 100%;
 }  
 .navigation ul{
- font-size: 50%;
+ font-size: 40%;
+font-weight: bold;	
 }  
-
+	.navigation li a{
+	 padding: 10px 10px;
+	}
 }
 
