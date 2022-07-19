@@ -44,8 +44,8 @@ body, html {
 .hwrap {
 	position: -webkit-sticky;
   position: sticky;
-	 height:50px;
-	 top: 50;
+  top: 0;
+	                              height:50px;
   overflow: hidden; /* HIDE SCROLL BAR */
   background: #eee;
 	
@@ -57,9 +57,9 @@ body, html {
 	display: flex; 
 position: -webkit-sticky;
   position: sticky;
-	 height:50px;
-	 top: 50;
-	 background: red;
+  top: 0;
+	                              height:50px;
+	
 	
 
 }
@@ -71,7 +71,7 @@ position: -webkit-sticky;
   box-sizing: border-box;
   padding: 10px;
   text-align: center;
-	
+	color:black;
 	 
 
 }
