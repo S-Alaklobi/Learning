@@ -268,7 +268,9 @@ font-weight: bold;
 	 padding: 10px 10px;
 	}
 	.newstricker{
-	 height:31px;
+position: -webkit-sticky;
+  position: sticky;
+ height:31px;
 	
 	}
 }
@@ -293,7 +295,9 @@ font-weight: bold;
 	 padding: 10px 10px;
 	}
 	.newstricker{
-	 height:31px;
+position: -webkit-sticky;
+  position: sticky;
+height:31px;
 	
 	}
 }
