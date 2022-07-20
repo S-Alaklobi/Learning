@@ -4,7 +4,6 @@ body, html {
 
   margin: 0;
 
-  font: 400 15px/1.8 "Lato", sans-serif;
 
   color: #777;
    padding: 10px;
@@ -19,7 +18,7 @@ position: -webkit-sticky;
 	                              height:50px;
 	 
 	                              background:lightgreen;
-     z-index: 99999999;
+     z-index: 9;
 			    	     
                                 }
 .navigation ul {
@@ -48,7 +47,7 @@ position: -webkit-sticky;
   position: sticky;
   top: 51px;
 	                              height:50px;
-	 z-index: 99999999;
+	  z-index: 9;
 	
 }
 /* (A) FIXED WRAPPER */
@@ -288,7 +287,7 @@ position: -webkit-sticky;
 	  height:30px;
 	}
 .navigation ul{
- font-size: 40%;
+ font-size: 14px;
 font-weight: bold;	
 }  
 	.navigation li a{
