@@ -233,4 +233,27 @@ h1 {
 .publishing ul{
  font-size: 100%;
 } 
+	.navigation {
+	position: -webkit-sticky;
+  position: sticky;
+	  height:30px;
+	      z-index: 99999999;
+
+	}
+.navigation ul{
+ font-size: 10px;
+font-weight: bold;
+}
+	.navigation li a{
+	 padding: 10px 10px;
+	}
+	.newstricker{
+position: -webkit-sticky;
+  position: sticky;
+		top:31px;
+height:30px;
+
+	      z-index: 99999999;
+
+	}
 } 
