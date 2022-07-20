@@ -260,7 +260,7 @@ h1 {
 
     }
 .navigation ul{
- font-size: 40%;
+ font-size: 12px;
 font-weight: bold;	
 }  
 	.navigation li a{
@@ -284,10 +284,10 @@ position: -webkit-sticky;
  font-size: 100%;
 }  
 .navigation {
-	  height:30px;
+	  height:40px;
 	}
 .navigation ul{
- font-size: 14px;
+ font-size: 10px;
 font-weight: bold;	
 }  
 	.navigation li a{
