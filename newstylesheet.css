@@ -290,8 +290,9 @@ font-weight: bold;
 	.newstricker{
 position: -webkit-sticky;
   position: sticky;
-height:30px;
 		top:31px;
+height:30px;
+		
 	      z-index: 99999999;
 
 	}
