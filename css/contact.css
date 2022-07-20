@@ -1,31 +1,26 @@
 body, html {
 
-  height: 700px;
+  height: 2000px;
 
   margin: 0;
 
-  font: 400 15px/1.8 "Lato", sans-serif;
 
   color: #777;
    padding: 10px;
-       background-image: url("https://cdn.pixabay.com/photo/2017/01/24/15/24/work-2005640_1280.jpg");
- background-attachment: fixed;
-
-  background-position: center;
-
-  background-repeat: no-repeat;
-
-background-size: contain;
 
 }
+
+
  .navigation{
- position: -webkit-sticky;
+position: -webkit-sticky;
   position: sticky;
-  top: 0;
+	 top: 0;
 	                              height:50px;
+
 	                              background:lightgreen;
-     z-index: 99999999;
-			     	     
+          z-index: 99999999;
+
+
                                 }
 .navigation ul {
 
@@ -34,11 +29,11 @@ background-size: contain;
                                  padding: 0;
                                   overflow: hidden;
                                   background-color: #676767;
-
+font-size: 16px;
                                     }
-                                    
+
 .navigation li {
-                                  float: left;
+                                  float: right;
                                     }
 		    .navigation li a {
 				    display: block;
@@ -47,6 +42,51 @@ background-size: contain;
 				    padding: 16px 16px;
 				    text-decoration: none;
 				     }
+
+.newstricker{
+position: -webkit-sticky;
+  position: sticky;
+  top: 51px;
+	                              height:50px;
+	       z-index: 99999999;
+
+
+}
+/* (A) FIXED WRAPPER */
+.hwrap {
+
+  overflow: hidden; /* HIDE SCROLL BAR */
+  background: #eee;
+
+
+}
+
+/* (B) MOVING TICKER WRAPPER */
+.hmove {
+	display: flex;
+}
+
+/* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
+.hitem {
+  flex-shrink: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+	color:black;
+
+
+}
+
+/* (D) ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
+/* 4 ITEMS -400%, CHANGE THIS IF YOU ADD/REMOVE ITEMS */
+@keyframes tickerh {
+  0% { transform: translate3d(100%, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
+.hmove { animation: tickerh linear 15s infinite; }
+.hmove:hover { animation-play-state: paused; }
+
 
 
 .contact{
