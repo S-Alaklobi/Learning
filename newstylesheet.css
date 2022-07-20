@@ -18,7 +18,7 @@ position: -webkit-sticky;
 	                              height:50px;
 	 
 	                              background:lightgreen;
-     z-index: 9;
+     z-index: 999999;
 			    	     
                                 }
 .navigation ul {
@@ -47,7 +47,7 @@ position: -webkit-sticky;
   position: sticky;
   top: 51px;
 	                              height:50px;
-	  z-index: 9;
+	  z-index: 999999;
 	
 }
 /* (A) FIXED WRAPPER */
@@ -284,7 +284,10 @@ position: -webkit-sticky;
  font-size: 100%;
 }  
 .navigation {
+	position: -webkit-sticky;
+  position: sticky;
 	  height:40px;
+	 z-index: 999999;
 	}
 .navigation ul{
  font-size: 10px;
@@ -296,8 +299,8 @@ font-weight: bold;
 	.newstricker{
 position: -webkit-sticky;
   position: sticky;
-height:10px;
-	
+height:41px;
+	 z-index: 999999;
 	}
 }
 
