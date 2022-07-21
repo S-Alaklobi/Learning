@@ -276,7 +276,7 @@ h1 {
 .navigation {
 	position: -webkit-sticky;
   position: sticky;
-	  height:30px;
+	  height:35px;
 	      z-index: 99999999;
 
 	}
