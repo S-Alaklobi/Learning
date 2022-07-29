@@ -94,7 +94,7 @@ position: -webkit-sticky;
     padding: 20px;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1{
 
   position: relative;
 
@@ -130,7 +130,28 @@ opacity: 0.7;
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
+.float-container {
+    padding: 20px;
+}
+.bgimg-2, .bgimg-3 {
 
+  position: relative;
+
+  opacity: 1;
+
+  background-attachment: fixed;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+width: 50%;
+    float: right;
+    padding: 20px;
+
+}
 .publishing ul {
 	 color: #111;
      font-size: 150%;
