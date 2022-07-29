@@ -207,6 +207,10 @@ div.transbox ul {
     float: left;
     padding: 20px;
     border: 2px solid red;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e4/Interior_view_of_Stockholm_Public_Library.jpg");
+
+  min-height: 400px;
+
 }  
 
 .caption {
