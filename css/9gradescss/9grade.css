@@ -90,9 +90,7 @@ position: -webkit-sticky;
 
 
 
-.float-container {
-    padding: 20px;
-}
+
 
 .bgimg-1{
 
@@ -189,7 +187,13 @@ div.transbox ul {
   min-height: 400px;
 
 }
+.bgimg-2 {
 
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e4/Interior_view_of_Stockholm_Public_Library.jpg");
+
+  min-height: 400px;
+
+}
 
 
 .caption {
